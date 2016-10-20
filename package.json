@@ -1,0 +1,23 @@
+{
+  "name": "RestApi-tets",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Eduard Simonyan",
+  "dependencies": {
+    "body-parser": "1.9.2",
+    "express": "4.10.1",
+    "morgan": "1.5.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "superagent": "0.20.0"
+  }
+}
